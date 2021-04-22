@@ -1,24 +1,21 @@
-# Vitrine de Produtos - VUEjs
+# Vitrine de Produtos com VUEjs
 
-## Project setup
+## Instalar dependências
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Executar projeto (dev)
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Visualizar projeto no navegador
+```
+Abra o navagador e acesse: http://localhost:8080/
+```
+
+### Compilar e minificar para ambiente de produção
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
