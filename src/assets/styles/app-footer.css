@@ -1,0 +1,112 @@
+footer {
+    width: 100%;
+    height: 250px;
+    background: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 146px;
+    vertical-align: middle;
+  }
+  
+  footer [class^="footer-"] {
+    width: 33.3333%;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  footer .footer-local {
+    float: left;
+  }
+  
+  footer .footer-logos {
+    float: right;
+    color:white;
+  }
+  aside,
+  p,
+  .info {
+    color: white;
+    font-size: 13px;
+    line-height: 12px;
+    font-family: Nunito;
+    font-weight: 400;
+  }
+  .info h3 {
+    position: relative;
+    font-family: Nunito;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  .info h3:after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    display: inline-block;
+    width: 4em;
+    border-bottom: #c0c0c0 solid 4px;
+  }
+
+  .footer-logos h4{
+    color: white;
+  }
+  
+  p span {
+    display: block;
+    color: white;
+    text-align: left;
+  }
+  
+  .content {
+    display: inline-table;
+  }
+  
+  .content .endereco p {
+    line-height: 10px;
+  }
+  
+  .buttons {
+    width: 40%;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .buttons button {
+    width: 195px;
+    font-family: Nunito;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  .buttons button span {
+    text-align: left;
+  }
+  
+  @media (max-width: 575.98px) {
+    section {
+      width: 100%;
+      max-width: 100%;
+      height: 18em;
+    }
+  
+    footer {
+      height: 400px;
+      display: grid;
+    }
+  
+    footer [class^="footer-"] {
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+    }
+  
+    .buttons {
+      display: inline-block;
+    }
+  }

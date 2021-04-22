@@ -1,0 +1,45 @@
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  * {margin: 0;}
+    /* body {
+      background-color: yellow;
+    } */
+  }
+
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* body {
+      background-color: black;
+    } */
+
+    * {margin: 0;}
+  }
+
+  @media (min-width: 992px) {
+    * {margin: 0;}
+    .container {
+      max-width: 960px;
+    }
+
+    /* body { 
+      background: red
+    } */
+
+    .option {
+      margin-left: 1rem;
+    }
+
+    .option span{
+      font-size: 0.8rem;
+    }
+
+    img.icon {
+      padding-right: 5px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }

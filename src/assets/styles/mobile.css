@@ -1,0 +1,189 @@
+
+/* (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .container {
+      max-width: 540px;
+    }
+
+    .options-desktop {
+        display: none;
+    }
+
+    .badge-mobile{
+        position: absolute;
+        right: 1.3em;
+        top: 1.7em;
+        display: block;
+        padding: 0px 6.5px;
+        border-radius: 50%;
+        background-color: #F8475F;
+        color: white;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    img.icon {
+        width: 20px;
+        height: 20px;
+        margin-top: 25px;
+    }
+
+    .control-nav-cart {
+        position: absolute;
+        right: 2.5em;
+        top: 0px;
+        display: block;
+        width: 30px;
+        padding: 5px 0;
+        z-index: 2;
+        cursor: pointer;
+    }
+    
+    .control-nav {
+        position: absolute;
+        left: 20px;
+        top: 1.9em;
+        display: block;
+        width: 30px;
+        padding: 5px 0;
+        border: solid #333;
+        border-width: 3px 0;
+        z-index: 2;
+        cursor: pointer;
+      }
+    
+    .control-nav:before {
+        content: "";
+        display: block;
+        height: 3px;
+        background: #333;
+    }
+    
+    .control-nav-close {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        z-index: 1;
+        background: rgba(0,0,0,0.4);
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+    
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 250px;
+        border-left: 1px solid #ccc;
+        background: #fff;
+        overflow-x: auto;
+        z-index: 2;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+
+    .imagem-produto {
+      min-height: 100px !important;
+    }
+
+    .valor {
+      font-size: 14px !important;
+      line-height: 14px !important;
+    }
+
+    .info {
+      width: 100% !important;
+      padding:0px !important;
+      padding-bottom: 10px !important;
+    }
+
+    .info span {
+      line-height: 17px !important;
+      margin-top: 5px;
+    }
+
+    .card-produto {
+      width: none !important;
+      margin:20px !important;
+    }
+
+    .preco,.parcelas,.avaliacao {
+      margin-top:5px;
+    }
+
+    .parcelas {
+      font-size: 0.6rem !important;
+    }
+
+    .comprar button{
+      width:80% !important;
+    }
+
+    .off {
+      border-top: 45px solid transparent !important;
+      border-bottom: 45px solid transparent !important;
+      border-left: 45px solid #f8475f !important;
+    }
+
+    .off span {
+      right:25px !important;
+      top:-6px !important;
+      font-size: 14px;
+    }
+
+    .erro-campo {
+      text-align: center !important;
+      display: block !important;
+    }
+
+    .text-mobile{
+      width:70%;
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 9999;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: left;
+    }
+
+    .text-mobile p{
+      color:white;
+      line-height:26px;
+      display:block;
+      margin:15px;
+    }
+
+    .saudacao {
+      font-size:1.3em;
+    }
+
+    .pergunta {
+      font-size: 1.5em;
+    }
+
+  }
+
+  /*  (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    
+  }
+
+  /*  (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    
+  }
